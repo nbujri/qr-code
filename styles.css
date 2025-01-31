@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+}
+
+.qr-code > img {
+    border-radius: 20px;
+    margin-bottom: 24px;
+    width: 288px;
+    height: 288px;
+}
+
+.bold-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    line-height: 120%;
+    letter-spacing: 0px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
